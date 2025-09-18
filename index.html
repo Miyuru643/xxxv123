@@ -51,6 +51,20 @@
   });
 </script>
 
+	<script>
+    function button01fun() {
+      window.location.href = "https://xxxv123.xyz";
+    }
+  </script>
+
+	  <script>
+    window.onload = function() {
+      setTimeout(function() {
+        document.getElementById("button01").style.display = "inline-block";
+      }, 10000); // 10000ms = 10 seconds
+    };
+  </script>
+
 </head>
 
 <body>
@@ -62,7 +76,7 @@
 
 
 
-    <button id="button01" class="button01" style="display: none; onclick="button01fun"> </button>
+    <button id="button01" class="button01" style="display: none; onclick="button01fun()"> </button>
 
 
 
@@ -1923,6 +1937,7 @@
 
 </body>
 </html>
+
 
 
 
